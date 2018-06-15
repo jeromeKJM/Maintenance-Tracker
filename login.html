@@ -3,9 +3,8 @@
         <title> MAINTANANCE TRACKER APPLICATION </title>
         <meta charset = "UTF-8"/>
         <meta name="description" content="This is a new type of system, never seen before">
-         <link rel="stylesheet" type="text/css" href="css/css.css" />
-    <body>
-       <script>
+         <link rel="stylesheet" type="text/css" href="css.css" />
+		 <script>
            img.medium {
                width: 250px;
                height: 250px;
@@ -14,40 +13,39 @@
                display: block;
                margin: 0px auto;
            }
-           .body{
-            background-image: url("images/cd847f4b4d6b35955423ac2ea6a830ec.jpg");   
+           body{
+            background-image: url('images/6.jpg') !important;   
                background-repeat: no-repeat;
+			  
            }
         </script>
-        
-        <h1><p align="center"> LOG-IN </p> <br/></h1>
-            
-            <form align="right">
-                    <p>
-                     <b>USERNAME:</b> <input type="text">
-                    </p>
-                    <p>
-                     <b>PASSWORD:</b>  <input type="password">
-                    </p>
+		</html>
+    <body style="margin:0px !important;">
+			<div class="main" style="">
+			<div class="nav">
+				<p style="color:white;margin-left:10%;font-size:20px;">MAINTANANCE TRACKER APPLICATION</p>
+			</div>
+			<div class="login">
+			<input style="float:left;margin-left:10px;" type="text" placeholder="User Name">
+			<input style="float:left;margin-left:10px;" type="password" placeholder="Password">
+                <a href="Admin_page.html"><input style="float:left" type="submit" value="Login"> </a>
+			</div>
+			<div class="body">
+				<form class="register" style="">
+				<h1 style="text-align:center;color:white;">Register</h1>
+					<p style="color:white; margin:10px;">Full Name <input type="text" style="margin-left:50px;height:30px;" placeholder="Full Name" name="name"></p>
+					<p style="color:white; margin:10px;">User Name <input type="text" style="margin-left:45px;height:30px;" placeholder="User Name" name="username"></p>
+					<p style="color:white; margin:10px;">Email <input type="text" style="margin-left:80px;height:30px;" placeholder="Email" name="email"></p>
+					<p style="color:white; margin:10px;">Password <input type="password" style="margin-left:60px;height:30px;" placeholder="Password" name="password"></p>
+					<p style="color:white; margin:10px;">Retype Password <input type="password" style="margin-left:10px;height:30px;" placeholder="Password" name="retypepassword"></p>
+					
+					 <button style="margin-left:25%;width:40%; height:30px;" name="Register"> <h3 style="margin-top:0px !important;"> <a href="User_page.html">Register </a></h3> </button> 
 
-                <button> <a href="User_page.html">SUBMIT</a> </button>
-            </form>
-        
-          
-            <p>
-                <b>NAME    : </b> <input type="text" name="NAME">
-            </p>
-            <p>
-                <b>USERNAME: </b> <input type="text" name="USERNAME">
-            </p>
-            <p>
-                <b>PASSWORD: </b> <input type="text" name="PASSWORD">
-            </p>
-            <p>
-                <button> <a href="User_page.html">SIGN UP </a></button>
-            </p>
-        <img src="cd847f4b4d6b35955423ac2ea6a830ec.jpg" alt="jerome" class="align-left medium"/>
-       
+				</form>
+			
+			</div>
+			<div class="footer"></div>
+			</div>
          
     </body>
 </html>
